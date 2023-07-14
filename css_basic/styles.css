@@ -1,0 +1,60 @@
+/* display: flex property to <body> and <main> */
+body, main {
+    display: flex;
+  }
+
+  /* flex-direction: column property to <body> */
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+
+  /* flex-direction: row property to <main> */
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+
+  /*styles for the h1, p, a and logo elements*/
+  h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .logo {
+    font-size: 40px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  /*content (article) takes ⅔ of the width of the page*/
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+
+  /*content (aside) takes ⅔ of the width of the page*/
+  aside {
+    flex: 1;
+    overflow-y: auto;
+  }
