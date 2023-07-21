@@ -179,8 +179,12 @@
   
   /* Grid
       ============================= */
-  
-  ul.row {
+
+  .row {
+    display: flex; /* Add display: flex to make the .row class a flex container */
+  }
+
+    ul.row {
     display: flex; /* Add display: flex to make the .row class a flex container */
     margin: 0;
     padding: 0;
