@@ -372,8 +372,8 @@
   }
 
   /* Section Latest news ============================= */
-  .section-latest-news .row {
-    flex-direction: row-reverse;
+  .section-latest-news .row {  /*The .section-latest-news class is used to target the section-latest-news section, while the The .row class is used to target the row element within the section-latest-news section*/
+    flex-direction: row-reverse;   /*The flex-direction property is set to row-reverse. This means that the elements within the row element will be displayed in reverse order.*/
   }
   
   /*** 4. CARD ***/
