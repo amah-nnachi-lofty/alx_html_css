@@ -150,7 +150,7 @@
         /*background: linear-gradient(180deg, #D8D8D8 0%, rgba(216, 216, 216, 0) 100%);*/
         border: 1px solid #979797;
         text-align: center;
-        color: #fff;
+        color: #ffff;
         background-position: top; /*Position the background image from top view in the page*/ 
         padding: 2%; /*padding: 2%; Space between header logo, top menu bars and top / bottom margin of the page */
       }
