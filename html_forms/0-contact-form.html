@@ -1,0 +1,34 @@
+<!-- Contact Form: Basic form with name, email, and message fields.
+HTML code snippet creates a basic contact form with fields for name, email, and message.
+It includes appropriate HTML5 validation attributes to ensure the name 
+and email fields are required and that the email field accepts a valid email format
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <form action="submit_form.php" method="post" id="contactForm">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email Field with HTML5 validation -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+
+        <!-- Message Field with textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
