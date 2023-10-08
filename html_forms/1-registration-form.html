@@ -1,0 +1,36 @@
+<!-- Registration Form: User registration form with name, email, password, and confirm password fields. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Set character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configure the viewport for responsive design -->
+    <title>Registration Form</title> <!-- Set the title of the web page -->
+</head>
+
+<body>
+    <form action="#" method="post"> <!-- Start of the registration form -->
+
+        <!-- Name Field -->
+        <label for="name">Name:</label> <!-- Label for the name input field -->
+        <input type="text" id="name" name="name" required> <!-- Input field for user's name with required attribute -->
+
+        <!-- Email Field with HTML5 validation -->
+        <label for="email">Email:</label> <!-- Label for the email input field -->
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"> <!-- Input field for user's email with required attribute and email pattern validation -->
+
+        <!-- Password Field with HTML5 validation -->
+        <label for="password">Password:</label> <!-- Label for the password input field -->
+        <input type="password" id="password" name="password" required minlength="8"> <!-- Input field for user's password with required attribute and minimum length validation -->
+
+        <!-- Confirm Password Field with HTML5 validation -->
+        <label for="confirmPassword">Confirm Password:</label> <!-- Label for the confirm password input field -->
+        <input type="password" id="confirmPassword" name="confirmPassword" required minlength="8"> <!-- Input field for confirming password with required attribute and minimum length validation -->
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button> <!-- Button to submit the registration form -->
+
+    </form> <!-- End of the registration form -->
+</body>
+
+</html> <!-- End of the HTML document -->
